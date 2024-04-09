@@ -30,7 +30,6 @@ npm run start
 ```
 Cannot GET /
 ```
-![alt text](images/image.png)
 * Then install dependencies in frontend move to ResumeBuilderAngular and run the commands mentioned below
 ```
 npm install -g @angular/cli
@@ -42,7 +41,7 @@ npm install --force
 npm start
 ```
 * Test the localhost:4200 for an output
-![alt text](images/image1.png)
+
 
 Congrats your local set up is done next will procede with Dockerfile
 
@@ -107,42 +106,42 @@ docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
-![alt text](images/image2.PNG)
+
 
 ```
 # get number of deployments 
 kubectl get deployments
 ```
-![alt text](images/image3.PNG)
+
 
 ```
 # get number of pods that are running 
 kubectl get pods
 ```
-![alt text](images/image4.PNG)
+
 
 ```
 # get service details
 kubectl get svc
 ```
-![alt text](images/image5.PNG)
+
 
 To view the Minikube deployment dashboard, use the following command:
 ```
 minikube dashboard
 ```
 The code displays the following in your web browser:
-![alt text](images/image6.PNG)
+
 
 To expose the service, use the following `minikube` command:
 ```
 minikube service resumebuilderbackend-evc
 ```
 
-![alt text](images/image7.PNG)
+
 
 open the url in browser to see the result
 
-![alt text](images/image7.PNG)
+
 
 ######## well done backend deployment was done using kubernetes #########
