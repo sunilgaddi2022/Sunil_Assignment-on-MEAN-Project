@@ -84,7 +84,7 @@ docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 
 * Repeat the steps similar as backend deployment make sure the port changed into 4200, other steps are more or less similar.
 
-####### congrats frontend also deployed ######
+
 
 # Docker compose.
 
@@ -93,7 +93,7 @@ docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 * compose file is mentioned in the name of docker-compose.yaml.
 * using docker-compose up command to build the images and deploy.
 
-#####Cocker compose also done ########
+
 
 # Kubernetes cluster creation and deploy the application in local lost 
 
@@ -144,4 +144,4 @@ open the url in browser to see the result
 
 
 
-######## well done backend deployment was done using kubernetes #########
+
